@@ -1,0 +1,26 @@
+.one {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: solid 10px blue;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: solid 20px green;
+    margin-left: 120px;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: solid 10px purple;
+    margin-left: 260px;
+}
+
+body {
+    margin: 0px;
+}

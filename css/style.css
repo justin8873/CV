@@ -1,0 +1,325 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    
+}
+
+nav {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: goldenrod;
+    background-color: beige;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: goldenrod;
+    background-color: beige;
+}
+
+footer {
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+.splash {
+    text-align: center;
+    padding: 10px;;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: goldenrod;
+    background-color: beige;
+}
+
+.splash h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: goldenrod;
+    background-color: beige;
+}
+
+.splash img {
+    border-radius: 50px;
+    border: 10px;
+
+}
+.address {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-weight: bold;
+    font-style: normal
+
+    
+
+}
+
+.tagline {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.hr {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: gold;
+    background-color: beige;
+}
+
+.education {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.edu{
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.para1 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size : 18px;
+}
+
+.hon{
+    text-align: center;
+    color: goldenrod;;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 2rem;
+    background-color: beige;
+}
+
+.list1 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size : 17px;
+    grid-template-columns: 1fr 2fr;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.list2 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size : 17px;
+    grid-template-columns: 1fr 2fr;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.list3 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size : 18px;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.Leadership {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.list4 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size : 18px;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+
+
+.list5 {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: bold; 
+    font-style: italic;
+
+}
+
+.link2 {
+    text-align: center;
+    color: purple;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size : 18px;
+    font-weight: bold; 
+    font-style: italic;
+    text-decoration: none;
+    padding : 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.div {
+    display: block;
+    unicode-bidi: isolate;
+
+}
+ 
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    background-color: beige;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.card h3{
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.prem {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.queue {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.res {
+    text-align: center;
+    color: goldenrod;
+    background-color: beige;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+    font-style: italic;
+
+}
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block; 
+    margin: 10px auto; 
+    padding: 12px; 
+    width: 80%; 
+    max-width: 500px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+}
+
+
+form textarea {
+    resize: vertical; 
+    min-height: 100px; 
+}
+
+
+form input[type="submit"] {
+    padding: 12px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.skills {
+    text-align: center;
+    color: goldenrod;;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight: bold; 
+    font-size: 2rem;
+    background-color: beige;
+}
